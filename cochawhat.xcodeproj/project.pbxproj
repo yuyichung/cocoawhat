@@ -13,6 +13,9 @@
 		9505EB97207C51BA00484402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9505EB96207C51BA00484402 /* Assets.xcassets */; };
 		9505EB9A207C51BA00484402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9505EB98207C51BA00484402 /* LaunchScreen.storyboard */; };
 		9505EB9D207C51BA00484402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9505EB9C207C51BA00484402 /* main.m */; };
+		95100A802087528F009EADF8 /* PhonePickerResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95100A7F2087528F009EADF8 /* PhonePickerResultViewController.m */; };
+		957FA09F2085A23700785628 /* android.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FA09E2085A23700785628 /* android.m */; };
+		957FA0A22085A81800785628 /* AndroidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957FA0A12085A81800785628 /* AndroidViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		9505EB99207C51BA00484402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9505EB9B207C51BA00484402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9505EB9C207C51BA00484402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95100A7E2087528F009EADF8 /* PhonePickerResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhonePickerResultViewController.h; sourceTree = "<group>"; };
+		95100A7F2087528F009EADF8 /* PhonePickerResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhonePickerResultViewController.m; sourceTree = "<group>"; };
+		957FA09D2085A23700785628 /* android.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = android.h; sourceTree = "<group>"; };
+		957FA09E2085A23700785628 /* android.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = android.m; sourceTree = "<group>"; };
+		957FA0A02085A81800785628 /* AndroidViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidViewController.h; sourceTree = "<group>"; };
+		957FA0A12085A81800785628 /* AndroidViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AndroidViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +51,12 @@
 		9505EB81207C51B700484402 = {
 			isa = PBXGroup;
 			children = (
+				95100A7E2087528F009EADF8 /* PhonePickerResultViewController.h */,
+				95100A7F2087528F009EADF8 /* PhonePickerResultViewController.m */,
+				957FA0A02085A81800785628 /* AndroidViewController.h */,
+				957FA0A12085A81800785628 /* AndroidViewController.m */,
+				957FA09D2085A23700785628 /* android.h */,
+				957FA09E2085A23700785628 /* android.m */,
 				9505EB8C207C51B700484402 /* cochawhat */,
 				9505EB8B207C51B700484402 /* Products */,
 			);
@@ -141,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				957FA0A22085A81800785628 /* AndroidViewController.m in Sources */,
 				9505EB92207C51B700484402 /* ViewController.m in Sources */,
+				957FA09F2085A23700785628 /* android.m in Sources */,
 				9505EB9D207C51BA00484402 /* main.m in Sources */,
+				95100A802087528F009EADF8 /* PhonePickerResultViewController.m in Sources */,
 				9505EB8F207C51B700484402 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
